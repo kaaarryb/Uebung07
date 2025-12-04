@@ -7,8 +7,10 @@ public class H2_main {
 		
 		int[] a = {2, 7, 1, 9};
 		int[] b = {5, 6, 7};
+		int start = 2;
+		int end = 4;
 		
-		System.out.println(Arrays.toString(change(a, b, 2, 4)));
+		System.out.println(Arrays.toString(change(a, b, start, end)));
 		
 		
 	}
