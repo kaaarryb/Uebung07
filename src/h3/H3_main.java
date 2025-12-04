@@ -7,7 +7,7 @@ public class H3_main {
 		
 		m.setName("Elsa");
 		m.setGebJahr(2010);
-		m.sebAlter();
+		m.setAlter();
 		
 		System.out.println("Name: " + m.getName());
 		System.out.println("Geburtsjahr: " + m.getGebJahr());

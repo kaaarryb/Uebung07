@@ -18,9 +18,8 @@ public class H2_main {
 			return new int[0];
 		}
 		
-		if (!Arrays.equals(a, b)) {
-			int[] neu = Arrays.copyOf(a, a.length);
-			return neu;
+		if (Arrays.compare(a, b) != 0) {
+			return Arrays.copyOf(a, a.length);
 		}
 		
 		int[] sorted = Arrays.copyOf(a, a.length);
@@ -29,4 +28,4 @@ public class H2_main {
 		int[] result = Arrays.copyOfRange(sorted, start, end);
 		return result;
 	}
-}
+} 

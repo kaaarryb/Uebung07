@@ -13,7 +13,7 @@ public class Mensch {
 		this.gebJahr = gebJahr;
 	}
 	
-	public void sebAlter() {
+	public void setAlter() {
 		alter = 2025 - gebJahr;
 	}
 	
